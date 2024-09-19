@@ -55,7 +55,7 @@ nav ul li a:hover {
   padding: 10px;
   border: 1px solid #007bff;
   border-radius: 5px;
-  width: 60%; /* Reduzindo a largura do campo */
+  width: 60%;
   transition: border-color 0.3s ease;
 }
 
@@ -65,8 +65,8 @@ nav ul li a:hover {
 }
 
 .search-container button {
-  margin-left: 5px; /* Ajustando a margem */
-  padding: 10px 15px; /* Aumentando o padding do botão */
+  margin-left: 5px;
+  padding: 10px 15px;
   transition: background-color 0.3s ease;
 }
 
@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 /* Para centralizar o texto do cabeçalho */
 #busca h2 {
-  margin-bottom: 20px; /* Adicionando margem para espaçamento */
+  margin-bottom: 20px;
 }
 
 /* Layout Principal */
@@ -147,16 +147,16 @@ footer a:hover {
 
 @media (max-width: 768px) {
   .search-container {
-    flex-direction: column; /* Coloca o botão abaixo do campo de busca */
+    flex-direction: column;
     width: 100%;
   }
 
   .search-container input {
-    width: 100%; /* Ocupa toda a largura em telas pequenas */
-    margin-bottom: 10px; /* Espaçamento entre o input e o botão */
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .card {
-    margin: 10px 0; /* Adiciona espaçamento vertical nos cards */
+    margin: 10px 0;
   }
 }
