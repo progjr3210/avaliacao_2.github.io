@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovoFato</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header class="bg-info">
+      <h1 class="text-white text-center">NovoFato</h1>
+      <nav>
+        <ul class="d-flex justify-content-center list-unstyled">
+          <li class="mx-3"><a href="#noticias">Notícias</a></li>
+          <li class="mx-3"><a href="#destaques">Destaques</a></li>
+          <li class="mx-3"><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="busca" class="my-4">
+      <h2 class="text-center">Busque por Notícias</h2>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search"
+          class="form-control"
+          placeholder="Buscar..."
+        />
+        <button class="btn btn-primary">Buscar</button>
+      </div>
+      <div id="results" class="mt-2"></div>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <main class="container d-flex flex-wrap">
+      <article class="col-lg-8 col-md-12 mb-4">
+        <h2 id="noticias">Notícias Recentes</h2>
+        <div class="card mb-3">
+          <img
+            src="./images/debate.png"
+            class="card-img-top"
+            alt="Imagem da Notícia 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              A primeira pesquisa eleitoral de SP após cadeirada de Datena em
+              Marçal; veja os resultados
+            </h5>
+            <p class="card-text">
+              Com as eleições presidenciais se aproximando, candidatos
+              intensificam suas campanhas por todo o país.
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./images/globo-canal-5-20240902-1800-frame-346645.avif"
+            class="card-img-top"
+            alt="Imagem da Notícia 2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              X indica advogados, e Moraes dá 24 horas para rede social
+              comprovar representação legal no Brasil
+            </h5>
+            <p class="card-text">
+              Ao longo da semana, o X fez dois movimentos distintos em relação
+              ao país – uma tentativa de "burlar" o bloqueio do site e, ao mesmo
+              tempo, sinalizações de que passaria a cumprir as ordens do STF.
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./images/whatsapp-image-2024-09-19-at-07.17.16.webp"
+            class="card-img-top"
+            alt="Imagem da Notícia 3"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Operação contra pirataria prende 5 e derruba mais de 600 sites e
+              apps
+            </h5>
+            <p class="card-text">
+              Uma operação do Ministério da Justiça e Segurança Pública tirou do
+              ar, nesta quinta-feira (19), 675 sites e 14 aplicativos de
+              streaming ilegal.
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./images/ministro-silvio-almeida-dos-direitos-humanos-foi-alvo-de-denuncias-de-assedio-sexual-1725635866924_v2_900x506.jpg.webp"
+            class="card-img-top"
+            alt="Imagem da Notícia 4"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Processos internos por atos sexuais somam 764 no governo, sendo 75
+              em ministérios
+            </h5>
+            <p class="card-text">
+              As denúncias de assédio que recaem sobre o agora ex-ministro dos
+              Direitos Humanos, Silvio Almeida, revelam um comportamento nocivo
+              comum na administração pública.
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./images/tigrinho.jpeg"
+            class="card-img-top"
+            alt="Imagem da Notícia 5"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Golpe de R$ 340 mil: 'Vi dinheiro render e acreditei; hoje me
+              sinto idiota'
+            </h5>
+            <p class="card-text">
+              Incentivado por uma matéria publicada no site de um jornal de
+              Minas Gerais, um produtor rural de Cotia (SP) resolveu investir
+              seu dinheiro com um suposto especialista em transações financeiras
+              —e acabou tomando um golpe, com prejuízo de R$ 340 mil.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <aside class="col-lg-4 col-md-12 mb-4">
+        <h2 id="destaques">Destaques</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Taxa de inflação no Brasil atinge o menor nível em 5 anos.
+          </li>
+          <li class="list-group-item">
+            Início da Copa do Mundo Feminina gera grande expectativa entre fãs
+            do futebol.
+          </li>
+          <li class="list-group-item">
+            ONU alerta sobre aumento no nível do mar nos próximos 50 anos.
+          </li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Relacionados a Esportes -->
+    <section id="esportes" class="my-4">
+      <h2>Relacionados a Esportes</h2>
+      <div class="d-flex flex-wrap justify-content-between">
+        <div class="card mb-3" style="width: 30%">
+          <img
+            src="./images/selecao_alema.jpeg"
+            class="card-img-top"
+            alt="Esporte 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Copa do Mundo de Futebol</h5>
+            <p class="card-text">
+              A Copa do Mundo está chegando e as seleções já estão se preparando
+              para as eliminatórias.
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 30%">
+          <img
+            src="./images/olimpiadas.jpeg"
+            class="card-img-top"
+            alt="Esporte 2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Olimpíadas 2024</h5>
+            <p class="card-text">
+              A expectativa cresce para as Olimpíadas de 2024 em Paris, com
+              novos atletas se destacando.
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 30%">
+          <img
+            src="./images/d766df73-34ab-4fe6-9ca1-56a2a1b3c114.jpeg"
+            class="card-img-top"
+            alt="Esporte 3"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Futebol Feminino</h5>
+            <p class="card-text">
+              O futebol feminino ganha cada vez mais destaque e visibilidade no
+              cenário esportivo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-info">
+      <p>&copy; 2024 Portal de Notícias. Todos os direitos reservados.</p>
+      <p><a href="#contato">Entre em contato</a></p>
+    </footer>
+  </body>
+</html>
